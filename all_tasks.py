@@ -25,7 +25,7 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	map scrolls when pressing arrow keys or moving the mouse towards screen edges.</li>
 	<li>Add a checkbox with the functionality of disabling mouse pan -- that is how we call the
 	effect when you hold down the middle mouse button (MMB) and then move the mouse.</li></ul>''',
-	['Code'], [], [720]),
+	['Code'], ['python'], [720]),
 
 #TODO more explanations about selection code location
 #TODO when is this task completed?
@@ -41,7 +41,7 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	<p>Other suggestions might be better than this one and you are encouraged to propose them!</p>
 	<p>You might also consider writing a very quick test case to compare the current implementation
 	with the improved one.</p> ''',
-	['Code', 'Research'], [], [1675]),
+	['Code', 'Research'], ['python'], [1675]),
 
 ('Trade route GUI test', '''\
 	<p>Your task: Create a comprehensive gui test (or tests) where all elements of the trade route
@@ -51,7 +51,7 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	players or developers test the game.</p>
 	<p>Find out about what GUI tests are <a href="http://wiki.unknown-horizons.org/w/Tests#GUI_tests">
 	in our wiki</a> and more information about which parts to test in the ticket comments:</p>''',
-	['Quality Assurance'], [], [1864]),
+	['Quality Assurance'], ['python'], [1864]),
 
 ('ATI driver issue suspected', '''\
 	<p>Check the ticket comments and the FIFE ticket. If you have access to ATI hardware, please
@@ -82,7 +82,7 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	<p>Your task: Logic and actual worker functions should be split up in at least 2 files,
 	probably 3 also is a good landmark. You will have to actually read the documentation about what
 	each function does, confirm that by reading the code and then decide what goes where!</p>''',
-	['Code'], [], [1629]),
+	['Code'], ['python'], [1629]),
 
 #1666
 #870 and equivalents -- how to use, which tasks to make
