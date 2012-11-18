@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 
 GCI = '''\
     <gci:task href="uh_{href}.xhtml">
