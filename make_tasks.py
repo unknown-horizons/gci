@@ -7,7 +7,7 @@ GCI = '''\
 {tags}
         </gci:tags>
 {categories}
-        <gci:team>Unknown Horizons</gci:team>
+        <gci:team>UH</gci:team>
         <gci:desc>
 {desc}
         </gci:desc>
