@@ -30,7 +30,7 @@ def print_one_task(title, desc, types, all_tags, tickets=None):
 		for task_type in types)
 	tags = ''.join('''\
             <gci:tag id="{tag_id}"/>'''.format(tag_id=tag_id)
-		for tag_id in sorted(all_tags + ['unknown-horizons']))
+		for tag_id in (['unknownhorizons'] + sorted(all_tags)))
 	return GCI.format(**locals())
 
 if __name__ == '__main__':
