@@ -24,7 +24,7 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	<li>Implement a new slider for our settings that allows players to alter how fast the
 	map scrolls when pressing arrow keys or moving the mouse towards screen edges.</li>
 	<li>Add a checkbox with the functionality of disabling mouse pan -- that is how we call the
-	effect when you hold down the middle mouse button (MMB) and then move the mouse.</li>''',
+	effect when you hold down the middle mouse button (MMB) and then move the mouse.</li></ul>''',
 	['Code'], [], [720]),
 
 #TODO more explanations about selection code location
@@ -50,7 +50,7 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	<p>This is an important task because these elements of the game are usually not touched when
 	players or developers test the game.</p>
 	<p>Find out about what GUI tests are <a href="http://wiki.unknown-horizons.org/w/Tests#GUI_tests">
-	in our wiki</a> and more information about which parts to test in the ticket comments:''',
+	in our wiki</a> and more information about which parts to test in the ticket comments:</p>''',
 	['Quality Assurance'], [], [1864]),
 
 ('ATI driver issue suspected', '''\
