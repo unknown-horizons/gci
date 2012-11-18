@@ -84,5 +84,10 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	each function does, confirm that by reading the code and then decide what goes where!</p>''',
 	['Code'], [], [1629]),
 
-
+#1666
+#870 and equivalents -- how to use, which tasks to make
+#1773
+#1461
+#1921++
+#more QA like 1864
 ]
