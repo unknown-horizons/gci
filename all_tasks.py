@@ -4,7 +4,7 @@
 ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'], [optional ticket numbers])
 
 #TODO when is this task completed?
-('Check graphics concerning color blindness', '''\
+('Graphics and color blindness', '''\
 	<p>Most of our interface is designed and coded by people without malfunctioning color
 	vision. There are several impairments related to how colors are observed by others.
 	Learn more about the topic <a href="http://en.wikipedia.org/wiki/Color_blindness"> on
@@ -43,8 +43,8 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	with the improved one.</p> ''',
 	['Code', 'Research'], [], [1675]),
 
-('Create gui test for trade route gui', '''\
-	<p>Your task: create a comprehensive gui test (or tests) where all elements of the trade route
+('Trade route GUI test', '''\
+	<p>Your task: Create a comprehensive gui test (or tests) where all elements of the trade route
 	gui are covered by test interactions. It should also test that the behavior expected by
 	changing the configuration is actually exhibited by the ship.</p>
 	<p>This is an important task because these elements of the game are usually not touched when
