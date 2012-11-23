@@ -6,7 +6,7 @@ GCI = '''\
         <gci:tags>
 {tags}
         </gci:tags>
-{categories}
+        <gci:types>{categories}</gci:types>
         <gci:team>UH</gci:team>
         <gci:desc>
 {desc}
@@ -25,9 +25,7 @@ def print_one_task(title, desc, types, all_tags, tickets=None):
 		'<b>Ticket {0}</b></a>'.format(t)
 		for t in tickets)
 	desc = '        <div style="font-size:17px;">\n' + desc + '</div>'
-	categories = '\n'.join('''\
-        <gci:types>{}</gci:types>'''.format(task_type)
-		for task_type in types)
+	categories = ','.join(t for t in types)
 	tags = ''.join('''\
             <gci:tag id="{tag_id}"/>'''.format(tag_id=tag_id)
 		for tag_id in (['unknownhorizons'] + sorted(all_tags)))

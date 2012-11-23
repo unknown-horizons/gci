@@ -14,7 +14,7 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	<p>Converting a screenshot to black and white can (to some degree) simulate the way color blind
 	people see, since then all color info is gone, and only the luminosity differences are visible.</p>
 	<p>If you happen to know a color blind person: their feedback is very welcome and a nice bonus!</p>''',
-	['User Interface', 'Research'], [], [1116]),
+	['User Interface', 'Outreach/Research'], [], [1116]),
 
 #TODO more explanation of settings code, example commit for other settings, ticket comment
 #TODO is this also in User Interface?
@@ -41,7 +41,7 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	<p>Other suggestions might be better than this one and you are encouraged to propose them!</p>
 	<p>You might also consider writing a very quick test case to compare the current implementation
 	with the improved one.</p> ''',
-	['Code', 'Research'], ['python'], [1675]),
+	['Code', 'Outreach/Research'], ['python'], [1675]),
 
 ('Trade route GUI test', '''\
 	<p>Your task: Create a comprehensive gui test (or tests) where all elements of the trade route
