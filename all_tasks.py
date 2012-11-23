@@ -40,7 +40,7 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	takes 0.5 sec max in total. This way, the game could feel slightly faster in this use case.</p>
 	<p>Other suggestions might be better than this one and you are encouraged to propose them!</p>
 	<p>You might also consider writing a very quick test case to compare the current implementation
-	with the improved one.</p> ''',
+	with the improved one.</p>''',
 	['Code', 'Outreach/Research'], ['python'], [1675]),
 
 ('Trade route GUI test', '''\
