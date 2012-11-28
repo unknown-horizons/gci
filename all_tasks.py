@@ -84,6 +84,42 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	each function does, confirm that by reading the code and then decide what goes where!</p>''',
 	['Code'], ['python'], [1629]),
 
+('Gameplay trailer', '''\
+	<p>Did you know what Unknown Horizons is all about before this GCI?</p>
+	<p>Perhaps you even checked our website -- did that help?</p>
+	<p>We are looking for nice, short videos showing a few minutes of Unknown Horizons gameplay.
+	Somebody interested in our game should get all important pieces of information about UH.</p>
+	<p>Compare the <a href="http://flarerpg.org/">Flare homepage</a> for an idea about how such a
+	video could be integrated with our main homepage. The ticket attached to this task has links to
+	several examples of older UH trailers and other open source game trailers as well.</p>
+	<p>We also offer another task to create a 2012.2 release video if you're interested!</p>''',
+	['Outreach/Research'], ['video'], [1921]),
+
+#('Release trailer', '''\
+#	<p>We also offer another task to create a gameplay trailer if you're interested!</p>''',
+#	['Outreach/Research'], ['video'], [1921]),
+
+('Pootle guide: Interface', '''\
+	<p>Our translation server <a href="http://pootle.unknown-horizons.org/pootle.fcgi">Pootle</a>
+	is used to manage translations of core game content as well as for example scenarios.</p>
+	<p>Because its user interface changed recently and since many interested translators might
+	never have seen something like Pootle before, a visual guide would be great to offer.</p>
+	<p>The basic idea is to provide a series of short text paragraphs accompanied with screenshots
+	(cropped to the important area where that's useful) explaining <ul>
+	<li>First steps (Account registration, user profile, profile picture via
+	<a href="http://www.gravatar.com/">Gravatar</a>)</li>
+	<li>Translation (Submit, suggest, fuzzy, <code>{variables}</code>)</li>
+	<li>Quality assurance (Review suggestions, search bar + checks, commit to VCS)</li>
+	<li><b>Bonus:</b>Testing (Download and compile <code>.po</code> files, string previewer)
+	</ul>We have a few text-only guides for parts of the above, the most interesting one for you
+	will be <a href="http://wiki.unknown-horizons.org/w/Translators_Guide">this wiki article</a>
+	which contains links to the other guides.</p>''',
+#	<h2>Deliverables</h2>
+#	<p>Wiki page? :-( Markdown plus up.u-h images? Where will it be hosted/included? rtfd.org?</p>''',
+	#TODO DELIVERABLES, ticket, tags
+	['Documentation/Training'], [], []),
+
+
 #1666
 #870 and equivalents -- how to use, which tasks to make
 #1773
