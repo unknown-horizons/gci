@@ -3,6 +3,18 @@
 # tags
 ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'], [optional ticket numbers])
 
+
+('Fix size of the an gui widget', '''\
+	<p>This task is a small programming task you have to change the size of an widget.
+	This widget is an inventory widget which informs the user how much ressources he/she can store.
+	You can find the widget in the 'Settlement Inventory' Tab of the warehouse. A screenshot is in
+	the <a href="https://github.com/unknown-horizons/unknown-horizons/issues/1940">related ticket</a>
+	available. The widget has to fit in the tab correctly, this could be done by an dynamic approach
+	like determining the widget size and then placing the icon and legend in the tab.</p>
+	<p>The relevant code lives in <a href="https://github.com/unknown-horizons/unknown-horizons/blob/master/horizons/gui/widgets/inventory.py#L76-81">horizons.gui.widgets.inventory</a>.
+	Make sure you check how the widget is added in the update() method.</p>''',
+	['Code'], ['python'], [1940]),
+
 #TODO when is this task completed?
 ('Graphics and color blindness', '''\
 	<p>Most of our interface is designed and coded by people without malfunctioning color
