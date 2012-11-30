@@ -76,6 +76,22 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	<a href="http://wiki.unknown-horizons.org/w/Git_cheatsheet">[Git cheatsheet]</a></p>''',
 	['Code', 'User Interface'], ['python', 'xml'], [1940]),
 
+# Can probably clone this task (perhaps with 15 instead of 10?) a few times
+('10 Gameplay hints', '''\
+	<p>Since loading a savegame can take some seconds even on faster machines, we use this time to
+	display certain messages. They are supposed to help players who are new to Unknown Horizons as
+	well as explain some of the more tricky parts or well-hidden helpful features.
+	Help us by adding more of those tips! You should check the ticket comments for some ideas (the
+	related ticket is linked below) -- but we encourage you to give UH a spin and add your own tips
+	and hints as well!</p>
+	<p>To get you started: <a href="https://github.com/unknown-horizons/unknown-horizons/commit/c6001a8">
+	This commit</a> for example added other quotes.</p>
+	<h2>Deliverables</h2>
+	<p>A pull request for <a href="https://github.com/unknown-horizons/unknown-horizons">our
+	repository on GitHub</a> containing 10 new gameplay hints.
+	<a href="http://wiki.unknown-horizons.org/w/Git_cheatsheet">[Git cheatsheet]</a></p>''',
+	['Outreach/Research', 'User Interface'], [], [1821]),
+
 ]
 
 #1666
