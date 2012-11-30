@@ -24,10 +24,12 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	video could be integrated with our main homepage. The ticket attached to this task has links to
 	several examples of older UH trailers and other open source game trailers as well.</p>
 	<p>We also offer another task to create a 2012.2 release video if you're interested!</p>''',
+	#TODO link to release video task
 	['Outreach/Research'], ['video'], [1921]),
 
 #('Release trailer', '''\
 #	<p>We also offer another task to create a gameplay trailer if you're interested!</p>''',
+	#TODO link to gameplay video task
 #	['Outreach/Research'], ['video'], [1921]),
 
 ('Pootle guide: Interface', '''\
