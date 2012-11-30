@@ -14,7 +14,7 @@ GCI = '''\
 
 def print_one_task(title, desc, types, all_tags, tickets=None):
 	tickets = tickets or []
-	href = '_'.join(title.split()[:2]).lower()
+	href = '_'.join(w.replace(':', '') for w in title.split()[:3] if len(w) > 3).lower()
 	desc = '''\
         <h2>Unknown Horizons</h2>
         <p>Join <a href="http://www.unknown-horizons.org/irc/">our IRC channel</a>
