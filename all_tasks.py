@@ -23,6 +23,10 @@ ALL_TASKS = [  # ('title', '''html description''', ['gci categories'], ['tags'],
 	<p>Compare the <a href="http://flarerpg.org/">Flare homepage</a> for an idea about how such a
 	video could be integrated with our main homepage. The ticket attached to this task has links to
 	several examples of older UH trailers and other open source game trailers as well.</p>
+	<p>The purpose of the video is to give interested players an introduction into what the game
+	is about and how it is played. The player should be presented all major features (settling 
+	on a new island, building buildings, the AI, trading, etc). This way the player can easily 
+	decide if Unknown Horizons is the right game for him/her.</p>
 	<p>We also offer another task to create a 2012.2 release video if you're interested!</p>''',
 	#TODO link to release video task
 	['Outreach/Research'], ['video'], [1921]),
